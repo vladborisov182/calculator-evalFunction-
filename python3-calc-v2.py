@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-def num_test(str):
+def num_test(inputStr):
     
     '''
     Функция, проверяющая правильность ввода
@@ -8,7 +8,7 @@ def num_test(str):
     
     while True:
         try:
-            x = float(input("Введите " + str + " значение: "))
+            x = float(input("Введите " + inputStr + " значение: "))
             return x
         except ValueError:
             print("Вы ввели неправильный символ")
